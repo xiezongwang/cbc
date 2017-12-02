@@ -31,7 +31,7 @@ public class CbcImpl  {
     @Produces({ "application/json" })
     public String add(@QueryParam("name") String name) {
 
-    	return "yyyy"
+    	return "yyyy";
     }
     
 }
