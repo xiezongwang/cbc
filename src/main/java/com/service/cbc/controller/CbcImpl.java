@@ -25,5 +25,14 @@ public class CbcImpl  {
 
     	return cbcDelegate.helloworld(name);
     }
+    
+    @Path("/add")
+    @GET
+    @Produces({ "application/json" })
+    public String add(@QueryParam("name") String name) {
+
+    	return "yyyy"
+    }
+    
 }
 
