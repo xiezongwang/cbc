@@ -23,7 +23,7 @@ public class CbcImpl  {
     @Produces({ "application/json" })
     public String helloworld(@QueryParam("name") String name) {
 
-    	return cbcDelegate.helloworld(name);
+    	return cbcDelegate.helloworld(name) + "xzw";
     }
 }
 
