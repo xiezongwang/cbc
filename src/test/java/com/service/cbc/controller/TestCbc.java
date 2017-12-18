@@ -14,7 +14,7 @@ public class TestCbc {
     @Test
     public void testhelloworld(){
 
-        String expactReturnValue = "hello"; // You should put the expect String type value here.
+        String expactReturnValue = "hello123"; // You should put the expect String type value here.
 
         String returnValue = cbcDelegate.helloworld("hello");
 
